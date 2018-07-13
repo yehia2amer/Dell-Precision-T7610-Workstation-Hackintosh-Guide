@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>15G1004</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SASMegaRAID</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.SASMegaRAID</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SASMegaRAID</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>7D1014</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>15E60</string>
+	<key>DTSDKName</key>
+	<string>macosx10.11</string>
+	<key>DTXcode</key>
+	<string>0731</string>
+	<key>DTXcodeBuild</key>
+	<string>7D1014</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>SASMegaRAID</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.SASMegaRAID</string>
+			<key>DangerZone</key>
+			<dict>
+				<key>AllowSleep</key>
+				<false/>
+				<key>AllowSleepComment</key>
+				<string>Allows your system go to sleep, but shouldn't be used if your boot volume is on controller</string>
+				<key>MaxSGL</key>
+				<integer>0</integer>
+				<key>MaxSGLComment</key>
+				<string>e.g. 33. Number of scatter gather list entries you controller can handle</string>
+				<key>MaxTransferSize</key>
+				<integer>0</integer>
+				<key>MaxTransferSizeComment</key>
+				<string>e.g. 131072. Determines the maximum size of data transfer (in bytes) per request your controller can catch</string>
+				<key>MaxTransferSizePerSegment</key>
+				<integer>0</integer>
+				<key>MaxTransferSizePerSegmentComment</key>
+				<string>e.g. 131072. Does the same that MaxTransferSize but for a single SGL entry</string>
+			</dict>
+			<key>IOClass</key>
+			<string>SASMegaRAID</string>
+			<key>IOPCIMatch</key>
+			<string>0x04111000 0x04131000 0x00601000 0x007c1000 0x00151028 0x00601028 0x00781000 0x00791000 0x00731000</string>
+			<key>IOPCIMatchComment</key>
+			<string>Symbios Logic MegaRAID SAS 1064R, MegaRAID Verde ZCR, SAS1078, SAS1078DE; Dell PERC 5, PERC 6; Symbios Logic MegaRAID SAS2108 CRYPTO GEN2, MegaRAID SAS2108 GEN2, MegaRAID SAS2008</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
+			<key>Protocol Characteristics</key>
+			<dict>
+				<key>Physical Interconnect</key>
+				<string>SAS</string>
+				<key>Physical Interconnect Location</key>
+				<string>External</string>
+			</dict>
+			<key>Settings</key>
+			<dict>
+				<key>DiscontinuousEnumeration</key>
+				<false/>
+				<key>DiscontinuousEnumerationComment</key>
+				<string>Allow gaps in disk numeration</string>
+				<key>NoCacheFlush</key>
+				<false/>
+				<key>NoCacheFlushComment</key>
+				<string>Forcefully disable controller and disk cache flushing</string>
+				<key>PreferMSI</key>
+				<true/>
+				<key>PreferMSIComment</key>
+				<string>Use Message Signaled Interrupts instead of legacy interrupts</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.6</string>
+		<key>com.apple.iokit.IOSCSIParallelFamily</key>
+		<string>2.0.1</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>10.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>10.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0b2</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Local-Root</string>
+</dict>
+</plist>
