@@ -1,0 +1,92 @@
+29:024  0:474  Found UEFI Acpi 2.0 RSDP at 88F27000
+29:024  0:000  Saving ACPI tables from RSDP 88F27000 to EFI\CLOVER\ACPI\origin ...
+29:024  0:000   88F27000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+29:024  0:000    (Xsdt: 88F27090, Rsdt: 88F27028)
+29:024  0:000    88F27090: 'XSDT', 'CBX3', Rev: 1, Len: 164
+29:024  0:000    88F27028: 'RSDT', 'CBX3', Rev: 1, Len: 100
+29:024  0:000    Tables in Xsdt: 16
+29:024  0:000    0. 88F30E28: 'FACP', 'CBX3', Rev: 5, Len: 268
+29:024  0:000        (Dsdt: 88F271C8, Facs: 8A7F7080, XDsdt: 88F271C8, XFacs: 0)
+29:024  0:000        88F271C8: 'DSDT', 'CBX3', Rev: 2, Len: 40029
+29:025  0:001        8A7F7080: 'FACS', Ver: 2, Len: 64
+29:025  0:000    1. 88F30F38: 'APIC', 'CBX3', Rev: 3, Len: 660
+29:025  0:000    2. 88F311D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+29:025  0:000    3. 88F31218: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+29:025  0:000    4. 88F31258: 'SRAT', 'AMI SRAT', Rev: 1, Len: 1328
+29:025  0:000    5. 88F31788: 'SLIT', 'AMI SLIT', Rev: 1, Len: 48
+29:025  0:000    6. 88F317B8: 'HPET', 'CBX3', Rev: 1, Len: 56
+29:025  0:000    7. 88F317F0: 'ASF!', ' HCG', Rev: 32, Len: 160
+29:025  0:000    8. 88F31890: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+29:025  0:000    9. 88FFEC10: 'BGRT', '', Rev: 0, Len: 56
+29:025  0:000    10. 88FFEC48: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+29:025  0:000    11. 88FFED78: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+29:025  0:000    12. 88FFEFA8: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+29:025  0:000    13. 88FFF050: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+29:025  0:000    14. 88FFF080: 'DMAR', 'OEMDMAR', Rev: 1, Len: 264
+29:025  0:000    15. 88FFF188: 'SLIC', 'CBX3', Rev: 3, Len: 374
+29:025  0:000    Tables in Rsdt: 16
+29:025  0:000    0. 88F27140: 'FACP', 'CBX3', Rev: 2, Len: 132
+29:025  0:000        (Dsdt: 88F271C8, Facs: 8A7F7040)
+29:025  0:000        88F271C8: 'DSDT', 'CBX3', Rev: 2, Len: 40029
+29:027  0:001        8A7F7040: 'FACS', Ver: 0, Len: 64
+29:027  0:000    1. 88F30F38: 'APIC', 'CBX3', Rev: 3, Len: 660
+29:027  0:000    2. 88F311D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+29:027  0:000    3. 88F31218: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+29:027  0:000    4. 88F31258: 'SRAT', 'AMI SRAT', Rev: 1, Len: 1328
+29:027  0:000    5. 88F31788: 'SLIT', 'AMI SLIT', Rev: 1, Len: 48
+29:027  0:000    6. 88F317B8: 'HPET', 'CBX3', Rev: 1, Len: 56
+29:027  0:000    7. 88F317F0: 'ASF!', ' HCG', Rev: 32, Len: 160
+29:027  0:000    8. 88F31890: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+29:027  0:000    9. 88FFEC10: 'BGRT', '', Rev: 0, Len: 56
+29:027  0:000    10. 88FFEC48: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+29:027  0:000    11. 88FFED78: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+29:027  0:000    12. 88FFEFA8: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+29:027  0:000    13. 88FFF050: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+29:027  0:000    14. 88FFF080: 'DMAR', 'OEMDMAR', Rev: 1, Len: 264
+29:027  0:000    15. 88FFF188: 'SLIC', 'CBX3', Rev: 3, Len: 374
+29:027  0:000  Found UEFI Acpi 1.0 RSDP at 88F27000
+29:027  0:000  Printing ACPI tables from RSDP 88F27000 ...
+29:027  0:000   88F27000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+29:027  0:000    (Xsdt: 88F27090, Rsdt: 88F27028)
+29:027  0:000    88F27090: 'XSDT', 'CBX3', Rev: 1, Len: 164
+29:027  0:000    88F27028: 'RSDT', 'CBX3', Rev: 1, Len: 100
+29:027  0:000    Tables in Xsdt: 16
+29:027  0:000    0. 88F30E28: 'FACP', 'CBX3', Rev: 5, Len: 268
+29:027  0:000        (Dsdt: 88F271C8, Facs: 8A7F7080, XDsdt: 88F271C8, XFacs: 0)
+29:027  0:000        88F271C8: 'DSDT', 'CBX3', Rev: 2, Len: 40029
+29:028  0:001        8A7F7080: 'FACS', Ver: 2, Len: 64
+29:028  0:000    1. 88F30F38: 'APIC', 'CBX3', Rev: 3, Len: 660
+29:028  0:000    2. 88F311D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+29:028  0:000    3. 88F31218: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+29:028  0:000    4. 88F31258: 'SRAT', 'AMI SRAT', Rev: 1, Len: 1328
+29:028  0:000    5. 88F31788: 'SLIT', 'AMI SLIT', Rev: 1, Len: 48
+29:028  0:000    6. 88F317B8: 'HPET', 'CBX3', Rev: 1, Len: 56
+29:028  0:000    7. 88F317F0: 'ASF!', ' HCG', Rev: 32, Len: 160
+29:028  0:000    8. 88F31890: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+29:028  0:000    9. 88FFEC10: 'BGRT', '', Rev: 0, Len: 56
+29:028  0:000    10. 88FFEC48: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+29:028  0:000    11. 88FFED78: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+29:028  0:000    12. 88FFEFA8: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+29:028  0:000    13. 88FFF050: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+29:028  0:000    14. 88FFF080: 'DMAR', 'OEMDMAR', Rev: 1, Len: 264
+29:028  0:000    15. 88FFF188: 'SLIC', 'CBX3', Rev: 3, Len: 374
+29:028  0:000    Tables in Rsdt: 16
+29:028  0:000    0. 88F27140: 'FACP', 'CBX3', Rev: 2, Len: 132
+29:028  0:000        (Dsdt: 88F271C8, Facs: 8A7F7040)
+29:028  0:000        88F271C8: 'DSDT', 'CBX3', Rev: 2, Len: 40029
+29:029  0:001        8A7F7040: 'FACS', Ver: 0, Len: 64
+29:029  0:000    1. 88F30F38: 'APIC', 'CBX3', Rev: 3, Len: 660
+29:029  0:000    2. 88F311D0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+29:029  0:000    3. 88F31218: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+29:029  0:000    4. 88F31258: 'SRAT', 'AMI SRAT', Rev: 1, Len: 1328
+29:029  0:000    5. 88F31788: 'SLIT', 'AMI SLIT', Rev: 1, Len: 48
+29:029  0:000    6. 88F317B8: 'HPET', 'CBX3', Rev: 1, Len: 56
+29:029  0:000    7. 88F317F0: 'ASF!', ' HCG', Rev: 32, Len: 160
+29:029  0:000    8. 88F31890: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+29:029  0:000    9. 88FFEC10: 'BGRT', '', Rev: 0, Len: 56
+29:029  0:000    10. 88FFEC48: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+29:029  0:000    11. 88FFED78: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+29:029  0:000    12. 88FFEFA8: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+29:029  0:000    13. 88FFF050: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+29:029  0:000    14. 88FFF080: 'DMAR', 'OEMDMAR', Rev: 1, Len: 264
+29:029  0:000    15. 88FFF188: 'SLIC', 'CBX3', Rev: 3, Len: 374
