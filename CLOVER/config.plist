@@ -34,7 +34,7 @@
 			<key>AFGLowPowerState</key>
 			<true/>
 			<key>Inject</key>
-			<integer>11</integer>
+			<string>5</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -86,13 +86,43 @@
 				<data>
 				xoGSAwAAAQ+3uYABAADoaQoAAA==
 				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string> AstekFusion2Family</string>
 				<key>Replace</key>
 				<data>
 				xoGSAwAAAA+3uYABAADpBgAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Change 15 port limit to 24 in XHCI kext 10.13 PB1</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g32MEA==
+				</data>
+				<key>Name</key>
+				<string>AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>
+				g32MGw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
+				<key>Name</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 		</array>
