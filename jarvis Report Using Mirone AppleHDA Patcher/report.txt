@@ -1,0 +1,31 @@
+Hardware info:
+- ATI R6xx HDMI (1002:aa01)
+- Controller 1002:aa30 (sub-ven:174b:aa30)
+- Driver: VoodooHDA
+
+SSDT-4.aml succesfully extracted!
+DSDT.aml succesfully extracted!
+SSDT.aml succesfully extracted!
+SSDT-1.aml succesfully extracted!
+SSDT-3.aml succesfully extracted!
+SSDT-2.aml succesfully extracted!
+Found "Device (HDEF)" in DSDT.aml
+Found property "layout-id" in DSDT.aml
+Found 1 occurennces of "layout-id" in ioreg, not sure what's will be for HDEF..
+Found unsupported "layout-id = 11" in ioreg, will not work using Mirone's patches!!!
+No "Device (HDAU)" was found inside your ACPI tables. That is normal w/o a PCI Video card or w/o an HDMI connector on it!
+
+AppleHDA Patcher.app only supports (if patched by Mirone):
+layout-id 2 for laptop's,
+layout-id 5 for Desktop's with 3 connectors (pink, green and blue),
+layout-id 7 for Desktop's with 5/6 connectors (gray, black, orange, pink, green and blue),
+layout-id 9 for Desktop's with 5/6 connectors (gray, black, orange, pink, green, blue, CodecAddress:2)
+
+aDummyHDA.kext works only is /System/Library/Extensions.
+Laptop's may be need the provided ACPI Patch such system_IRQ.txt to be functional.
+HDAEnabler.kext maybe usefull if you don't want to edit your ACPI table or the Clover's config,
+or the org.Chameleon.Boot.plist.
+CodecCommander.kext is usefull in the case you have no sound after waking from sleep.
+
+Generated kexts should be installed in a proper way, repairing its permissions and rebuilding the cache:
+dragging kexts into Pandora's Box.app window will help you to do that!
